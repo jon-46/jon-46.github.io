@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jon's Page</title>
+</head>
+<body>
+    <h1>Jon Website</h1>
+    <p><a href="https://music.youtube.com/watch?v=wLvrORrLJ3M&si=I1mcelQ99Z-qiaoJ">listen to this</a></p>
+    <a href="mailto:social.underpaid381@passinbox.com">email me</a>
+</body>
+</html>
