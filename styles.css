@@ -7,5 +7,4 @@ html, body {
   line-height: 1.6;
 }
 body { padding: 1rem; }
-a { color: #9900ff; text-decoration: underline; }
-img { max-width: 100%; height: auto; display: block; }
+a { color: #9900ff; }
