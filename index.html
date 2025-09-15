@@ -1,27 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jon</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jon</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Hello world</h1>
-    <p>This is my personal website/portfolio, hosted on GHP.
-        (domain by <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">github.com</a>)
-    </p>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#survey">Survey</a>
+      <a href="#contact">Contact</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
 
-    <h2>Things I like</h2>
-    <ul>
+  <main id="main">
+    <section id="about">
+      <h1>Hello World</h1>
+      <p>This is my personal website/portfolio, hosted on GHP.
+      (domain by <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">github.com</a>)</p>
+
+      <h2>Things I like</h2>
+      <ul>
         <li>coding</li>
         <li><a href="https://music.youtube.com/playlist?list=PLGsG2kR7M7wZhuts-t19_wozn5q88jEfg&si=nf-SR24xy6xcZAgO" target="_blank" rel="noopener noreferrer">Music</a></li>
         <li>Video games</li>
         <li>You :)</li>
-    </ul>
-    <!--leo fix this-->
-        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.iblywPUakuqSw8VpKE0HkQHaFj%3Fpid%3DApi&f=1&ipt=11bcd7a3adc6c6f8a29a732b8884228395df025031f109a4d3c66049a8b1e53e&ipo=images" alt="love">
-        <p><strong><em>Contact me:</em></strong></p>
-    <p><a href="mailto:social.underpaid381@passinbox.com">social.underpaid381@passinbox.com</a></p>
+      </ul>
+    </section>
+
+    <section id="survey">
+      <h2>Survey</h2>
+      <form>
+        <fieldset>
+          <legend>Do you like me?</legend>
+          <label><input type="radio" name="like" value="yes" required> Yes</label>
+          <label><input type="radio" name="like" value="hell-yeah"> Hell yeah</label>
+        </fieldset>
+        <fieldset>
+          <legend>Why?</legend>
+          <textarea id="why" name="why" rows="5" placeholder="Because..."></textarea>
+        </fieldset>
+
+        <fieldset>
+          <legend>To do list</legend>
+          <label><input type="checkbox" name="likes" value="study"> Go study M</label>
+          <label><input type="checkbox" name="likes" value="work"> Go make money S</label>
+          <label><input type="checkbox" name="likes" value="code"> Go code something M</label>
+        </fieldset>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section id="gallery">
+      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp6559857.jpg&f=1&nofb=1&ipt=3b1b073df7a76126da27106aa87e12cf457b265ba90520c79afb0133c7ccc5bc" alt="cod" width="1200" height="700">
+      <img src="lastyumyum.jpg" alt="lastyumyum" width="1200" height="700">
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p><a href="mailto:social.underpaid381@passinbox.com">social.underpaid381@passinbox.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Jon</p>
+  </footer>
 </body>
 </html>
