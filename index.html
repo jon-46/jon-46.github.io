@@ -3,65 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jon</title>
+  <meta name="description" content="Jon — developer profile">
+  <title>Jon — Profile</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#survey">Survey</a>
-      <a href="#contact">Contact</a>
-      <a href="#gallery">Gallery</a>
-    </nav>
-  </header>
+  <main class="container">
+    <h1>Hello</h1>
+    <p>Young Iraqi Developer focused on clean user-friendly web experiences and enterprise solutions.</p>
 
-  <main id="main">
-    <section id="about">
-      <h1>Hello World</h1>
-      <p>This is my personal website/portfolio, hosted on GHP.
-      (domain by <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">github.com</a>)</p>
-
-      <h2>Things I like</h2>
-      <ul>
-        <li>coding</li>
-        <li><a href="https://music.youtube.com/playlist?list=PLGsG2kR7M7wZhuts-t19_wozn5q88jEfg&si=nf-SR24xy6xcZAgO" target="_blank" rel="noopener noreferrer">Music</a></li>
-        <li>Video games</li>
-        <li>You :)</li>
-      </ul>
+    <section class="about">
+      <div class="about-text">
+        <h2>About</h2>
+        <p>I build small, fast sites and learn in public. Current focus: HTML semantics, CSS layout, and practical JavaScript.</p>
+      </div>
+      <img
+        class="about-photo"
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.5mrpgtXPrtN6DcR5tan8-gHaEK%3Fpid%3DApi&f=1&ipt=a6ef7ccc0f4538b605107e123f092014c250b7d6c646620eda88e82c6c03099b&ipo=images"
+        alt="Profile image">
     </section>
 
-    <section id="survey">
-      <h2>Survey</h2>
-      <form>
-        <fieldset>
-          <legend>Do you like me?</legend>
-          <label><input type="radio" name="like" value="yes" required> Yes</label>
-          <label><input type="radio" name="like" value="hell-yeah"> Hell yeah</label>
-        </fieldset>
-        <fieldset>
-          <legend>Why?</legend>
-          <textarea id="why" name="why" rows="5" placeholder="Because..."></textarea>
-        </fieldset>
-
-        <button type="submit">Send</button>
-      </form>
-    </section>
-
-    <section id="gallery">
-      <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp6559857.jpg&f=1&nofb=1&ipt=3b1b073df7a76126da27106aa87e12cf457b265ba90520c79afb0133c7ccc5bc" alt="cod" width="1200" height="700">
-      <img src="lastyumyum.jpg" alt="lastyumyum" width="1200" height="700">
-    </section>
-
-    <section id="contact">
+    <section>
       <h2>Contact</h2>
       <p><a href="mailto:social.underpaid381@passinbox.com">social.underpaid381@passinbox.com</a></p>
     </section>
   </main>
 
-  <footer>
-    <p>© 2025 Jon</p>
+  <footer class="container">
+    <small>© 2025 Jon</small>
   </footer>
 </body>
 </html>
