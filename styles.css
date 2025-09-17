@@ -1,21 +1,25 @@
 html, body { height: 100%; margin: 0; background: #000; color: #ffffff; font-family: Helvetica, Arial, sans-serif; box-sizing: border-box; }
-a { color: #9900ff; }
+a { color: #1643a3; }
 body { padding: 1rem; font-size: medium; line-height: 1.7; }
 h1 { text-align: center; font-size: 48px; margin: 0; }
 
 section { margin: 0 0 2rem; }
 p, ul { margin: 0 0 1rem; }
 
-form { margin: 1.5rem 0; }
-fieldset { border: 2px solid #fe0000;
-  border-radius: 14px;   
-  padding: 1rem 1.25rem;     
-  margin: 0 0 1.5rem; }
-fieldset { padding: 1rem; } /* adjust or remove if you want edge-to-edge */
-fieldset textarea {
-  width: 100%;
-  max-width: 100%;
-  display: block;
-  box-sizing: border-box;
-  resize: vertical; /* allow only vertical resize */
+.about {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.about-text { flex: 1; }
+.about-photo {
+  width: clamp(280px, 35vw, 520px);
+  height: auto;
+  border-radius: 8px;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 700px) {
+  .about { flex-direction: column; }
+  .about-photo { width: 100%; max-width: 420px; }  /* larger on mobile too */
 }
